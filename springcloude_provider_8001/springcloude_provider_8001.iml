@@ -8,8 +8,8 @@
       <configuration>
         <webroots />
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001/src/main/java" />
-          <root url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -17,11 +17,20 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001">
-      <sourceFolder url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../../springcloud_parent_day02/springcloude_provider_8001/target" />
+    <content url="file://D:/fromgitspringcloud">
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_config_client/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_service_7001/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_common_user/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_consumer_9001/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_provider_8001/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_zuul_9527/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://D:/fromgitspringcloud/springcloude_config_service_1299/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
