@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloude_common_user" />
+        <module name="springcloude_config_client" />
+        <module name="springcloude_config_service_1299" />
+        <module name="springcloude_consumer_9001" />
+        <module name="springcloude_provider_8001" />
+        <module name="springcloude_service_7001" />
+        <module name="springcloude_zuul_9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_parent_day02" target="1.5" />
+      <module name="springcloude_common_user" target="1.5" />
+      <module name="springcloude_config_client" target="1.5" />
+      <module name="springcloude_config_service_1299" target="1.5" />
+      <module name="springcloude_consumer_9001" target="1.5" />
+      <module name="springcloude_provider_8001" target="1.5" />
+      <module name="springcloude_service_7001" target="1.5" />
+      <module name="springcloude_zuul_9527" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

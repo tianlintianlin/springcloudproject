@@ -1,0 +1,18 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527 #显示的名字而已
+    prefer-ip-address: true
+zuul:
+  routes:
+    wbUser.serviceId: user-provider
+    wbUser.path: /wbUser/**  #配置别名,webUser===zuul-gateway/user-provider
+  ignored-services: user-provider  # 忽略这个服务，如果要忽略所有的服务， “*”
+  prefix: "/aigou"
